@@ -8,10 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/nuwa/proprietary/odm/bin/hw/vendor.qti.camera.provider-service_64:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.qti.camera.provider-service_64 \
     vendor/xiaomi/nuwa/proprietary/odm/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-service \
-    vendor/xiaomi/nuwa/proprietary/odm/bin/touch_raw:$(TARGET_COPY_OUT_ODM)/bin/touch_raw \
-    vendor/xiaomi/nuwa/proprietary/odm/bin/touch_report:$(TARGET_COPY_OUT_ODM)/bin/touch_report \
-    vendor/xiaomi/nuwa/proprietary/odm/bin/toucheventcheck:$(TARGET_COPY_OUT_ODM)/bin/toucheventcheck \
-    vendor/xiaomi/nuwa/proprietary/odm/bin/touchsensor:$(TARGET_COPY_OUT_ODM)/bin/touchsensor \
     vendor/xiaomi/nuwa/proprietary/odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Forte/Forte_acdb_cal.acdb \
     vendor/xiaomi/nuwa/proprietary/odm/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp \
     vendor/xiaomi/nuwa/proprietary/odm/etc/audio/misound_karaoke_res.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_karaoke_res.bin \
@@ -648,8 +644,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/T-music.txt:$(TARGET_COPY_OUT_ODM)/firmware/T-music.txt \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/cs35l41-dsp1-spk-cali.wmfw:$(TARGET_COPY_OUT_ODM)/firmware/cs35l41-dsp1-spk-cali.wmfw \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/cs35l41-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_ODM)/firmware/cs35l41-dsp1-spk-prot.wmfw \
-    vendor/xiaomi/nuwa/proprietary/odm/firmware/film_model.tflite:$(TARGET_COPY_OUT_ODM)/firmware/film_model.tflite \
-    vendor/xiaomi/nuwa/proprietary/odm/firmware/glove_model.tflite:$(TARGET_COPY_OUT_ODM)/firmware/glove_model.tflite \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/nuwa_tele_bu24618_ois.coeff:$(TARGET_COPY_OUT_ODM)/firmware/nuwa_tele_bu24618_ois.coeff \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/nuwa_tele_bu24618_ois.mem:$(TARGET_COPY_OUT_ODM)/firmware/nuwa_tele_bu24618_ois.mem \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/nuwa_tele_bu24618_ois.prog:$(TARGET_COPY_OUT_ODM)/firmware/nuwa_tele_bu24618_ois.prog \
@@ -658,7 +652,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/nuwa_wide_bu24618_ois.prog:$(TARGET_COPY_OUT_ODM)/firmware/nuwa_wide_bu24618_ois.prog \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/st_fts_m2.ftb:$(TARGET_COPY_OUT_ODM)/firmware/st_fts_m2.ftb \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/stm_fts_production_limits.csv:$(TARGET_COPY_OUT_ODM)/firmware/stm_fts_production_limits.csv \
-    vendor/xiaomi/nuwa/proprietary/odm/firmware/water_check.tflite:$(TARGET_COPY_OUT_ODM)/firmware/water_check.tflite \
     vendor/xiaomi/nuwa/proprietary/odm/lib/rfsa/adsp/libarcsoft_beauty_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_beauty_hvx_skel.so \
     vendor/xiaomi/nuwa/proprietary/odm/lib/rfsa/adsp/libmialgo_ell_cdsp_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libmialgo_ell_cdsp_skel.so \
     vendor/xiaomi/nuwa/proprietary/odm/lib/rfsa/adsp/libmialgo_night_align_cdsp_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libmialgo_night_align_cdsp_skel.so \
@@ -988,7 +981,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/nuwa/proprietary/odm/lib64/libssccalapi@2.0.so:$(TARGET_COPY_OUT_ODM)/lib64/libssccalapi@2.0.so \
     vendor/xiaomi/nuwa/proprietary/odm/lib64/libsupermoon.so:$(TARGET_COPY_OUT_ODM)/lib64/libsupermoon.so \
     vendor/xiaomi/nuwa/proprietary/odm/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_ODM)/lib64/libswregistrationalgo.so \
-    vendor/xiaomi/nuwa/proprietary/odm/lib64/libtensorflowlite_c.so:$(TARGET_COPY_OUT_ODM)/lib64/libtensorflowlite_c.so \
     vendor/xiaomi/nuwa/proprietary/odm/lib64/libtfestriping.so:$(TARGET_COPY_OUT_ODM)/lib64/libtfestriping.so \
     vendor/xiaomi/nuwa/proprietary/odm/lib64/libtriplecam_optical_zoom_control.so:$(TARGET_COPY_OUT_ODM)/lib64/libtriplecam_optical_zoom_control.so \
     vendor/xiaomi/nuwa/proprietary/odm/lib64/libtriplecam_video_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libtriplecam_video_optical_zoom.so \

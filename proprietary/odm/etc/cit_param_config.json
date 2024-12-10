@@ -292,6 +292,10 @@
                 "fp_fod_test_hbm_switch_on_cmd": "echo 9  1 >  /sys/class/mi_display/disp-DSI-0/disp_param",
                 "fp_fod_test_hbm_switch_off_cmd": "echo 9  0 >  /sys/class/mi_display/disp-DSI-0/disp_param"
             }
+        },
+        {
+            "name": "security_certificate_test",
+            "caption": "Security证书更新工具"
         }
     ],
     "auxiliaryTestItems": [

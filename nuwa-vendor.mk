@@ -648,7 +648,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/nuwa_wide_bu24618_ois.coeff:$(TARGET_COPY_OUT_ODM)/firmware/nuwa_wide_bu24618_ois.coeff \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/nuwa_wide_bu24618_ois.mem:$(TARGET_COPY_OUT_ODM)/firmware/nuwa_wide_bu24618_ois.mem \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/nuwa_wide_bu24618_ois.prog:$(TARGET_COPY_OUT_ODM)/firmware/nuwa_wide_bu24618_ois.prog \
-    vendor/xiaomi/nuwa/proprietary/odm/firmware/st_fts_m2.ftb:$(TARGET_COPY_OUT_ODM)/firmware/st_fts_m2.ftb \
+    vendor/xiaomi/nuwa/proprietary/odm/firmware/st_fts_l1.ftb:$(TARGET_COPY_OUT_ODM)/firmware/st_fts_l1.ftb \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/stm_fts_production_limits.csv:$(TARGET_COPY_OUT_ODM)/firmware/stm_fts_production_limits.csv \
     vendor/xiaomi/nuwa/proprietary/odm/lib64/camera/aon_front.pb:$(TARGET_COPY_OUT_ODM)/lib64/camera/aon_front.pb \
     vendor/xiaomi/nuwa/proprietary/odm/lib64/camera/com.qti.sensormodule.nuwa_ofilm_s5kjn1_tele.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.nuwa_ofilm_s5kjn1_tele.bin \

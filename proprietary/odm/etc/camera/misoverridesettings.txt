@@ -8,3 +8,4 @@ MISv2DisableOIS=0
 MISV2InputImageDataDumpEnabled=0
 MISV3InputImageDataDumpEnabled=0
 MISV2UltraZoomThreshold=5.0
+MISEnableGyroTimeout=1

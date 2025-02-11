@@ -516,6 +516,15 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
+	name: "hrtf5c",
+	filename: "hrtf5c.bin",
+	owner: "xiaomi",
+	src: "proprietary/vendor/lib/rfsa/adsp/hrtf5c.bin",
+	relative_install_path: "adsp",
+	soc_specific: true,
+}
+
+prebuilt_rfsa {
 	name: "libCalculator_skel",
 	filename: "libCalculator_skel.so",
 	owner: "xiaomi",
@@ -4007,7 +4016,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/odm/lib64/hw/camera.xiaomi.so"],
-			shared_libs: ["libcutils", "libcamera_metadata", "libcom.xiaomi.debug", "libcom.xiaomi.metadatautils", "libcom.xiaomi.eventcallback", "libexif", "libjpeg", "liblog", "libmialgoengine", "libsync", "libutils", "libui", "libhidlbase", "libprocessgroup", "libcom.xiaomi.attribute", "vendor.xiaomi.hardware.bgservice@1.0", "vendor.xiaomi.hardware.bgservice@1.0-impl", "android.hardware.graphics.mapper@4.0", "libc++", "libclang_rt.ubsan_standalone", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "libcamera_metadata", "libcom.xiaomi.debug", "libcom.xiaomi.metadatautils", "libcom.xiaomi.eventcallback", "libexif", "libjpeg", "liblog", "libmialgoengine", "libsync", "libutils", "libui", "libhidlbase", "libprocessgroup", "libcom.xiaomi.attribute", "vendor.xiaomi.hardware.bgservice@1.0", "vendor.xiaomi.hardware.bgservice@1.0-impl", "android.hardware.graphics.mapper@4.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",

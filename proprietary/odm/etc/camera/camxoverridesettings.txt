@@ -430,3 +430,7 @@ QuickCameraSupported=TRUE
 
 #Enable CameraHWDiag
 enCameraHWDiag=TRUE
+
+#for camera mipi crc error
+enableInternalKMDRecovery=TRUE
+crcErrorDivisor=100
